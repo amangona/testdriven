@@ -1,10 +1,12 @@
-from flask.cli import FlaskGroup
-
-from project import app, db
-
 import unittest
 
-cli = FlaskGroup(app)
+from flask.cli import FlaskGroup
+
+from project import create_app, db
+from project.api.models import User
+
+app = create_app()
+cli = FlaskGroup(create_app=create_app)
 
 @cli.command()
 def recreate_db():
