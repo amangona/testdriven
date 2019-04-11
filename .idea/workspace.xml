@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d79812-5101-45f8-b971-10d14283aa4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/users/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_users.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="12">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="161">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -60,19 +60,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="1757">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="245">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -92,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="178">
+              <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -101,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/users/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="370">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -116,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -141,25 +135,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/services/users/project/tests/__init__.py" />
-        <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
         <option value="$PROJECT_DIR$/services/users/requirements.txt" />
         <option value="$PROJECT_DIR$/services/users/project/config.py" />
-        <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/__init__.py" />
         <option value="$PROJECT_DIR$/services/users/project/__init__.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/base.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_config.py" />
         <option value="$PROJECT_DIR$/docker-compose-dev.yml" />
+        <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
+        <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/models.py" />
         <option value="$PROJECT_DIR$/services/users/manage.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="207" />
-    <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="x" value="640" />
+    <option name="y" value="23" />
+    <option name="width" value="640" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,14 +193,6 @@
               <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testdriven-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testdriven-app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testdriven-app" type="b2602c69:ProjectViewProjectNode" />
@@ -273,12 +259,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554336843537</updated>
       <workItem from="1554336845735" duration="6600000" />
-      <workItem from="1554496841401" duration="14893000" />
+      <workItem from="1554496841401" duration="15328000" />
+      <workItem from="1554529208015" duration="857000" />
+      <workItem from="1554769968918" duration="17452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21493000" />
+    <option name="totallyTimeSpent" value="40237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,9 +278,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="710" extended-state="6" />
+    <frame x="640" y="23" width="640" height="721" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13974153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30100334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -303,11 +291,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991013" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.23234917" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991013" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.23088455" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32890856" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6671664" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33038348" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32991013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -316,7 +304,7 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.15912762" />
+      <window_info anchor="right" id="Database" order="6" weight="0.15886287" />
       <window_info anchor="right" id="JSON Viewer" order="7" />
     </layout>
   </component>
@@ -361,10 +349,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/db/create.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="178">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -373,45 +404,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="1757">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="245">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -420,23 +424,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="370">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/db/create.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
