@@ -78,7 +78,7 @@ def get_all_users():
     return jsonify(response_object), 200
 
 
-@users_blueprint.route('/', methods=['GET'])
+@users_blueprint.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         username = request.form['username']

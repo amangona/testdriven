@@ -121,7 +121,7 @@ class TestUserService(BaseTestCase):
 
     def test_all_users(self):
         """Ensure get all users behaves correctly."""
-        add_user('abe', 'abe@mmangona.org')
+        add_user('abe', 'abe@mangona.org')
         add_user('mango', 'mango@notreal.com')
         with self.client:
             response = self.client.get('/users')
@@ -133,7 +133,7 @@ class TestUserService(BaseTestCase):
                 'abe@mangona.org', data['data']['users'][0]['email'])
             self.assertIn('mango', data['data']['users'][1]['username'])
             self.assertIn(
-                'mangona@notreal.com', data['data']['users'][1]['email'])
+                'mango@notreal.com', data['data']['users'][1]['email'])
             self.assertIn('success', data['status'])
 
     def test_main_no_users(self):
@@ -145,7 +145,7 @@ class TestUserService(BaseTestCase):
 
     def test_main_with_users(self):
         """Ensure the main route behaves correctly when users have been added to the database."""
-        add_user('abe', 'abe@mmango.org')
+        add_user('abe', 'abe@mango.org')
         add_user('mango', 'mango@notreal.com')
         with self.client:
             response = self.client.get('/')
@@ -160,9 +160,10 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/',
-                data=dict(username='abe', email='abe@sonotreal.com'),
+                data=dict(username='abe', email='abe@notreal.com'),
                 follow_redirects=True
             )
+            # print("response is: ", response)
             self.assertEqual(response.status_code, 200)
             self.assertIn(b'All Users', response.data)
             self.assertNotIn(b'<p>No users!</p>', response.data)
