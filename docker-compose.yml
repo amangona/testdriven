@@ -5,7 +5,7 @@ services:
   users:
     build:
       context: ./services/users
-      dockerfile: services/users/Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - './services/users:/usr/src/app'
     ports:
@@ -15,7 +15,6 @@ services:
       - APP_SETTINGS=project.config.DevelopmentConfig
       - DATABASE_URL=postgres://postgres:postgres@users-db:5432/users_dev
       - DATABASE_TEST_URL=postgres://postgres:postgres@users-db:5432/users_test
-
     depends_on:
       - users-db
 
@@ -24,7 +23,7 @@ services:
       context: ./services/users/project/db
       dockerfile: Dockerfile
     ports:
-      - 5435:5432
+      - 5436:5432
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres

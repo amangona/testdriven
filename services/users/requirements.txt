@@ -3,3 +3,4 @@ Flask-SQLAlchemy==2.3.2
 psycopg2-binary==2.7.6.1
 Flask-Testing==0.6.2
 gunicorn==19.9.0
+coverage==4.5.3
