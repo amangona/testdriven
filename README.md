@@ -15,7 +15,7 @@ docker-compose -f docker-compose-dev.yml exec users python manage.py seed-db
 ```
 To run tests
 ```
-docker-compose -f docker-compose-dev.yml exec users python manage.py test
+docker-compose -f docker-compose.yml exec users python manage.py test
 ```
 ## Switching Environment
 ```
