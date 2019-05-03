@@ -21,5 +21,9 @@ docker-compose -f docker-compose-dev.yml exec users python manage.py test
 ```
 eval $(docker-machine env [DOCKER_MACHINE_NAME])
 ```
+
+## Continuous Intergration
+[![Build Status](https://travis-ci.org/amangona/testdriven-flask-template.svg?branch=master)](https://travis-ci.org/amangona/testdriven-flask-template)
+
 ## To Do
 Add Black
