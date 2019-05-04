@@ -27,3 +27,4 @@ eval $(docker-machine env [DOCKER_MACHINE_NAME])
 
 ## To Do
 Add Black
+execute flake8 in travis and make sure to pass
