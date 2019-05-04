@@ -21,7 +21,7 @@ COV = coverage.coverage(
 )
 COV.start()
 
-@cli.command('recreate_db')
+@cli.command('recreate-db')
 def recreate_db():
     db.drop_all()
     db.create_all()

@@ -9,9 +9,9 @@
 
 Clone repo, then run:
 ```
-docker-compose -f docker-compose-dev.yml up -d --build 
-docker-compose -f docker-compose-dev.yml exec users python manage.py recreate-db
-docker-compose -f docker-compose-dev.yml exec users python manage.py seed-db 
+docker-compose -f docker-compose.yml up -d --build 
+docker-compose -f docker-compose.yml exec users python manage.py recreate-db
+docker-compose -f docker-compose.yml exec users python manage.py seed-db 
 ```
 To run tests
 ```
