@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d79812-5101-45f8-b971-10d14283aa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services/client/src/components/UsersList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/client/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/client/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -52,40 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/users/project/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/client/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="405">
+              <caret line="38" column="3" selection-start-line="38" selection-end-line="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -94,10 +55,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/client/src/setupTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/__snapshots__/UsersList.test.jsx.snap">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/client/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="294">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -106,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/services/users/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -179,8 +175,10 @@
         <option value="$PROJECT_DIR$/services/client/public/index.html" />
         <option value="$PROJECT_DIR$/services/users/requirements.txt" />
         <option value="$PROJECT_DIR$/services/users/project/__init__.py" />
-        <option value="$PROJECT_DIR$/services/client/src/components/UsersList.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/index.js" />
+        <option value="$PROJECT_DIR$/services/client/src/setupTests.js" />
+        <option value="$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx" />
+        <option value="$PROJECT_DIR$/services/client/src/components/UsersList.jsx" />
       </list>
     </option>
   </component>
@@ -217,6 +215,33 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testdriven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testdriven" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testdriven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testdriven" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testdriven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testdriven" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testdriven" type="b2602c69:ProjectViewProjectNode" />
@@ -323,12 +348,12 @@
       <workItem from="1556821079519" duration="8927000" />
       <workItem from="1556910952628" duration="1995000" />
       <workItem from="1556935816063" duration="9861000" />
-      <workItem from="1557327363467" duration="2235000" />
+      <workItem from="1557327363467" duration="3545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126643000" />
+    <option name="totallyTimeSpent" value="127953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,9 +366,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985207" visible="true" weight="0.15018316" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985207" visible="true" weight="0.15018316" />
       <window_info id="Structure" order="1" sideWeight="0.50147927" side_tool="true" weight="0.23667206" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -358,7 +382,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32890856" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" visible="true" weight="0.3412863" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" visible="true" weight="0.3412863" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50080776" side_tool="true" weight="0.33247754" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32991013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -598,34 +622,61 @@
     <entry file="file://$PROJECT_DIR$/services/users/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/services/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="405">
+          <caret line="38" column="3" selection-start-line="38" selection-end-line="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/__snapshots__/UsersList.test.jsx.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
