@@ -21,14 +21,14 @@ COV = coverage.coverage(
 )
 COV.start()
 
-@cli.command('recreate-db')
+@cli.command('recreate_db')
 def recreate_db():
     db.drop_all()
     db.create_all()
     db.session.commit()
 
 
-@cli.command('seed-db')
+@cli.command('seed_db')
 def seed_db():
     """Seeds the database."""
     db.session.add(User(username='michael', email="hermanmu@gmail.com"))
