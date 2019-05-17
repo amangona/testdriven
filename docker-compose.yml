@@ -54,16 +54,16 @@ services:
     depends_on:
       - users
 
-  stream:
+  streams:
     build:
-      context: ./services/stream
+      context: ./services/streams
       dockerfile: Dockerfile
     ports:
       - 1935:1935
       - 8080:80
       - 8443:443
     volumes:
-      - ./services/stream/certs:/opt/certs
+      - ./services/streams/certs:/opt/certs
     depends_on:
       - users
       - client
