@@ -53,17 +53,3 @@ services:
       - REACT_APP_USERS_SERVICE_URL=${REACT_APP_USERS_SERVICE_URL}
     depends_on:
       - users
-
-  streams:
-    build:
-      context: ./services/streams
-      dockerfile: Dockerfile
-    ports:
-      - 1935:1935
-      - 8080:80
-      - 8443:443
-    volumes:
-      - ./services/streams/certs:/opt/certs
-    depends_on:
-      - users
-      - client
