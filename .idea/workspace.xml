@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d79812-5101-45f8-b971-10d14283aa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services/users/project/api/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/htmlcov/project___init___py.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/htmlcov/project___init___py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/htmlcov/project_api_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/htmlcov/project_api_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/htmlcov/project_api_users_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/htmlcov/project_api_users_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="46d79812-5101-45f8-b971-10d14283aa4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="504" />
     <option name="y" value="23" />
     <option name="width" value="776" />
@@ -330,12 +313,12 @@
       <workItem from="1558017693017" duration="2200000" />
       <workItem from="1558038454582" duration="3397000" />
       <workItem from="1560371195576" duration="221000" />
-      <workItem from="1560717837132" duration="17875000" />
+      <workItem from="1560717837132" duration="18177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165185000" />
+    <option name="totallyTimeSpent" value="165487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,9 +331,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="504" y="23" width="776" height="710" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985207" visible="true" weight="0.24250682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985207" visible="true" weight="0.24250682" />
       <window_info id="Structure" order="1" sideWeight="0.50147927" side_tool="true" weight="0.23667206" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -365,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32833582" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" visible="true" weight="0.3598201" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" visible="true" weight="0.3598201" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50080776" side_tool="true" weight="0.33247754" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32991013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
