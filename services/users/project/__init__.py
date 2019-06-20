@@ -4,12 +4,14 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_cors import CORS
 from flask_migrate import Migrate
+from flask_bcrypt import Bcrypt
 
 # instantiate the app
 db = SQLAlchemy()
 toolbar = DebugToolbarExtension()
 cors = CORS()
 migrate = Migrate()
+bcrypt = Bcrypt()
 
 def create_app(script_into=None):
 
@@ -25,6 +27,7 @@ def create_app(script_into=None):
     toolbar.init_app(app)
     cors.init_app(app)
     migrate.init_app(app, db)
+    bcrypt.init_app(app)
 
     # register blueprints
     from project.api.users import users_blueprint
